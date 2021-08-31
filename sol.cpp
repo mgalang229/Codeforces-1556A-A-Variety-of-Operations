@@ -19,7 +19,7 @@ int main() {
 				cout << 1;
 			}
 		} else {
-			// if 'c' and 'd' is not equal to each other, then check if their difference:
+			// if 'c' and 'd' is not equal to each other, then identify their difference:
 			// if it's even, then 2 operations are needed, otherwise it is impossible
 			if (abs(c - d) % 2 == 0) {
 				cout << 2;
